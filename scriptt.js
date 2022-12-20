@@ -29,12 +29,7 @@ function includeHTML() {
   
   
 function forVisible() {
-  var x = document.getElementById("notVisible");
-  // if (x.style.display === "none") {
-  //   x.style.display = "block";
-  // } else {
-  //   x.style.display = "none";
-  // }
-  document.getElementById("notVisible").style.display = "block";
+  
+  document.getElementById("notVisibleO").style.display = "block";
 
 }
