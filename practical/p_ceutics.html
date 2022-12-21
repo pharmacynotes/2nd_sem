@@ -15,11 +15,14 @@
       <a href="p_ceutics_pdf/p_ceutics.pdf"><button class="col-6 btn btn-primary text-center  my-1">Download PDF</button></a>
       </div>
         
-      <div class="container text-center ">
-        <button class="col-6 btn btn-primary text-center  my-1 forVisi" onclick="forVisible()" >View Page</button>
-        </div>
-    
-        <div id="notVisible">
+      <p class="text-center">
+            
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          View Practical
+        </button>
+      </p>
+      <div class="collapse bg-dark" id="collapseExample">
+        <div class="card card-body  bg-dark">
     
         <div  class="container bg-secondary rounded col-12 "><img class="my-1 col-12 rounded " src="p_ceutics_img/p_ceutics_1.jpg" class="col-12" alt=""></div>
     
@@ -36,6 +39,7 @@
         <div class="container bg-secondary rounded col-12 notVisible"><img class="my-1 col-12 rounded" src="p_ceutics_img/p_ceutics_8.jpg" class="col-12" alt=""></div>
         
       </div>
+    </div>
     
       <script>
         document.getElementById("notVisible").style.display = "none";
